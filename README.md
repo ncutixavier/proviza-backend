@@ -1,18 +1,6 @@
-Certainly! Here is a `README.md` file that you can copy as a single file:
-
-```markdown
 # FastAPI MongoDB Project 🚀
 
 Welcome to the FastAPI MongoDB project! This project demonstrates how to build a RESTful API using FastAPI with MongoDB for data storage.
-
-## Table of Contents
-
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Endpoints](#endpoints)
-- [Environment Variables](#environment-variables)
-- [License](#license)
 
 ## Features 🌟
 
@@ -27,7 +15,7 @@ Welcome to the FastAPI MongoDB project! This project demonstrates how to build a
 
    ```bash
    git clone https://github.com/ncutixavier/proviza-backend
-   cd your-repository
+   cd proviza-backend
    ```
 
 2. **Create and activate a virtual environment:**
@@ -43,12 +31,12 @@ Welcome to the FastAPI MongoDB project! This project demonstrates how to build a
    pip install -r requirements.txt
    ```
 
-4. **Set up your `.env` file:**
+4. **Set up your `.env` file referring to `.env.example`:**
 
    Create a `.env` file in the project root with the following content:
 
    ```env
-   MONGODB_URL=mongodb://localhost:27017/quizzapp_db
+   MONGODB_URL=mongodb://localhost:27017/db_name
    ```
 
 ## Usage 🚀
@@ -80,6 +68,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Happy coding! 😊 If you have any questions, feel free to open an issue or submit a pull request.
-```
-
-You can copy and paste this content into a file named `README.md` in your project directory. Adjust the content as needed to fit your specific project details.
